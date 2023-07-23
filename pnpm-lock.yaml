@@ -22,6 +22,9 @@ devDependencies:
   '@types/snowpack-env':
     specifier: ^2.3.3
     version: 2.3.4
+  '@types/uuid':
+    specifier: ^9.0.2
+    version: 9.0.2
   prettier:
     specifier: ^2.2.1
     version: 2.8.8
@@ -349,6 +352,10 @@ packages:
 
   /@types/snowpack-env@2.3.4:
     resolution: {integrity: sha512-zYzMb2aMyzXW5VgOQHy+FgI8N5tLFb+tIsUqk35CIgSr9pT4pji2GR8BCOTMdniusVuRHIp/DaYQNQGYGLVZHQ==}
+    dev: true
+
+  /@types/uuid@9.0.2:
+    resolution: {integrity: sha512-kNnC1GFBLuhImSnV7w4njQkUiJi0ZXUycu1rUaouPqiKlXkh77JKgdRnTAp1x5eBwcIwbtI+3otwzuIDEuDoxQ==}
     dev: true
 
   /abbrev@1.1.1:
